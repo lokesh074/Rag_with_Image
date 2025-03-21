@@ -5,7 +5,7 @@ from langchain.vectorstores import Chroma
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyBIhPtiJ412v2U3LqHwWRttA6Jv6tQrS54")
+genai.configure(api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 # Use the same collection for PDF and image text
 db_path = "chroma_db"
